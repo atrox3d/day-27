@@ -17,10 +17,18 @@ label.config(text="other text")
 # button
 
 def button_click():
-    label["text"] = "Click"
+    label["text"] = entry.get()
 
 
 button = tkinter.Button(text="button", command=button_click)
 button.pack()
+
+# entry
+
+entry = tkinter.Entry(width=10)
+entry.pack()
+
+
+
 
 window.mainloop()
