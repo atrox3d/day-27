@@ -9,6 +9,7 @@ def button_click():
 window = tkinter.Tk()
 window.title("my first GUI program")
 window.minsize(width=500, height=300)
+window.config(padx=100, pady=100)
 
 # label
 
@@ -21,6 +22,7 @@ label.config(text="other text")
 # label.pack(side=tkinter.LEFT)
 # label.place(x=0, y=0)
 label.grid(row=0, column=0)
+label.config(padx=50, pady=50)
 
 # button
 
