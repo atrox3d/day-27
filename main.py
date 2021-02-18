@@ -29,13 +29,30 @@ button = tkinter.Button(text="button", command=button_click)
 # button.place(x=0, y=50)
 button.grid(row=1, column=1)
 
+# newbutton
+
+newbutton = tkinter.Button(text="button", command=button_click)
+# button.pack(side=tkinter.TOP)
+# button.place(x=0, y=50)
+newbutton.grid(row=0, column=2)
+
 
 # entry
 
 entry = tkinter.Entry(width=10)
 # entry.pack(side=tkinter.RIGHT)
 # entry.place(x=0, y=100)
-entry.grid(column=2, row=2)
+entry.grid(row=2, column=3)
+
+
+#       0     1     2     3
+#    +-----+-----+-----+-----+
+# 0  |  L  |     |  B  |     |
+#    +-----+-----+-----+-----+
+# 1  |     |  B  |     |     |
+#    +-----+-----+-----+-----+
+# 2  |     |     |     |  E  |
+#    +-----+-----+-----+-----+
 
 
 
