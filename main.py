@@ -12,8 +12,10 @@ window.minsize(width=500, height=300)
 # label
 
 label = tkinter.Label(text="label", font=("Arial", 24, "bold"))
-# center-top
-label["text"] = "new text"
+# add constant
+tkinter.TEXT = "text"
+# use it
+label[tkinter.TEXT] = "new text"
 label.config(text="other text")
 label.pack(side=tkinter.LEFT)
 
